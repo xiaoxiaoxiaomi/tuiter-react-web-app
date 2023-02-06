@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+.wd-container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.wd-main-content {
+  width: calc(100% - 32px);
+  height: 100%;
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-grey-text {
+  color: rgb(110, 118, 125);
+  font-size: 13px
+}
+
+.wd-author-bar {
+  display: flex;
+  align-items: center;
+}
