@@ -10,3 +10,7 @@
 .fa-stack-sm .fa-ellipsis-h {
   font-size: 10px;
 }
+
+.form-control:focus {
+  box-shadow: none;
+}

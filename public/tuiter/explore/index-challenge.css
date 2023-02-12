@@ -1,0 +1,65 @@
+.fa-stack-sm {
+  width: 14px;
+  height: 16px;
+}
+
+.fa-stack-sm .fa-circle {
+  font-size: 14px;
+}
+
+.fa-stack-sm .fa-ellipsis-h {
+  font-size: 10px;
+}
+
+.list-group {
+  border: none;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.wd-twitter-primary {
+  color: #1DA1F2;
+}
+
+.wd-twitter-btn-primary {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+  color: #fff;
+}
+
+.wd-twitter-btn-primary:hover {
+  background-color: #0C8BDD;
+  border-color: #0C8BDD;
+  color: #fff;
+}
+
+.wd-search-bar .form-control:focus {
+  box-shadow: none;
+}
+
+.list-group-item:hover {
+  color: black;
+  background-color: #f8f9fa;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #5b7083;
+  padding: 8px 0;
+  margin: 0 16px;
+}
+
+.nav-tabs .nav-link.active {
+  color: black;
+  border-bottom: 3px solid #1da1f2;
+}
+
+.wd-follow-list li {
+  background-color: transparent;
+}

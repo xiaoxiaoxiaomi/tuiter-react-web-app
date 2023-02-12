@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Explore</title>
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+  <link href="index-challenge.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container mt-2">
+  <div class="row">
+    <!--  Navigation  -->
+    <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+      <ul class="list-group mb-2 ">
+        <a href="../tuit.html" class="list-group-item d-flex align-items-center">
+          <i class="fab fa-twitter wd-twitter-primary"></i>
+          <!--<span class="d-none d-xl-block ms-2">Twitter</span>-->
+        </a>
+        <a href="../home.html" class="list-group-item d-flex align-items-center">
+          <i class="fas fa-home"></i>
+          <span class="d-none d-xl-block ms-2">Home</span>
+        </a>
+        <a href="index.html" class="list-group-item d-flex align-items-center fw-bolder">
+          <i class="fas fa-hashtag"></i>
+          <span class="d-none d-xl-block ms-2">Explore</span>
+        </a>
+        <a href="#" class="list-group-item d-flex align-items-center">
+          <i class="fas fa-bell"></i>
+          <span class="d-none d-xl-block ms-2">Notifications</span>
+        </a>
+        <a href="#" class="list-group-item d-flex align-items-center">
+          <i class="fas fa-envelope"></i>
+          <span class="d-none d-xl-block ms-2">Messages</span>
+        </a>
+        <a href="../bookmarks/index.html" class="list-group-item d-flex align-items-center">
+          <i class="fas fa-bookmark"></i>
+          <span class="d-none d-xl-block ms-2">Bookmarks</span>
+        </a>
+        <a href="#" class="list-group-item d-flex align-items-center">
+          <i class="fas fa-fire"></i>
+          <span class="d-none d-xl-block ms-2">Top Articles</span>
+        </a>
+        <a href="../profile.html" class="list-group-item d-flex align-items-center">
+          <i class="fas fa-user"></i>
+          <span class="d-none d-xl-block ms-2">Profile</span>
+        </a>
+        <a href="#" class="list-group-item d-flex align-items-center">
+          <span class="fa-stack fa-stack-sm d-flex align-items-center">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="d-none d-xl-block ms-2">More</span>
+        </a>
+      </ul>
+      <button type="button" class="btn btn-primary w-100 rounded-pill wd-twitter-btn-primary">
+        Tweet
+      </button>
+    </div>
+    <!--  Main content  -->
+    <div
+        class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 px-0 border border-top-0 border-bottom-0">
+      <!--   Search bar   -->
+      <div class="d-flex justify-content-between mb-2 wd-search-bar">
+        <div class="input-group rounded-pill bg-light">
+          <span class="input-group-text bg-transparent border-0">
+            <i class="fas fa-search"></i>
+          </span>
+          <input type="text" class="form-control border-0 rounded-pill bg-transparent"
+                 placeholder="Search Twitter">
+        </div>
+        <button class="btn"><i class="fas fa-cog"></i></button>
+      </div>
+      <!--   Tabs   -->
+      <ul class="nav nav-tabs mb-2 d-flex justify-content-between">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">For you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="#">Entertainment</a>
+        </li>
+      </ul>
+      <!--   Image   -->
+      <div class="position-relative">
+        <img src="../images/tennis.png" class="img-fluid">
+        <div class="text-white position-absolute bottom-0 start-0 m-2">
+          <span>Tennis Tournament &middot; LIVE</span>
+          <h3>Australia Open 2023</h3>
+        </div>
+      </div>
+      <!--   Tweets   -->
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-11">
+              <div class="text-muted">
+                <small>Politics &middot; Trending</small>
+              </div>
+              <div class="fw-bold">
+                Seizures
+              </div>
+              <div class="text-muted">
+                <small>4,953 Tweets</small>
+              </div>
+            </div>
+            <div class="col-1">
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-11">
+              <div class="fw-bold">
+                #InfinityPool
+              </div>
+              <div class="text-muted">
+                See the electrifying thriller Infinity Pool in theaters - if you dare
+              </div>
+              <div class="text-muted">
+                <small>
+                  <i class="fas fa-angle-up"></i>
+                  Promoted by NEON
+                </small>
+              </div>
+            </div>
+            <div class="col-1">
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-11">
+              <div class="text-muted">
+                <small>Sports &middot; Trending</small>
+              </div>
+              <div class="fw-bold">
+                RIP Bean
+              </div>
+              <div class="text-muted">
+                <small>18K Tweets</small>
+              </div>
+            </div>
+            <div class="col-1">
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-11">
+              <div class="text-muted">
+                <small>Politics &middot; Trending</small>
+              </div>
+              <div class="fw-bold">
+                Durham
+              </div>
+              <div class="text-muted">
+                <small>Trending with <span class="wd-twitter-primary">Barr</span>, <span
+                    class="wd-twitter-primary">Barr</span></small>
+              </div>
+            </div>
+            <div class="col-1">
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-11">
+              <div class="text-muted">
+                <small>Trending in Business and finance</small>
+              </div>
+              <div class="fw-bold">
+                #DirectedEvolution
+              </div>
+              <div class="text-muted">
+                <small>172K Tweets</small>
+              </div>
+            </div>
+            <div class="col-1">
+              <i class="fas fa-ellipsis-h text-muted"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--  Who to follow  -->
+    <div class="d-none d-lg-block col-lg-4 col-xl-4 col-xl-4 ">
+      <ul class="list-group bg-light wd-follow-list rounded-5">
+        <li class="list-group-item fw-bold fs-5">Who to follow</li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center">
+              <img src="../images/neu-icon.jpeg" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-7 d-flex flex-column justify-content-between">
+              <div class="d-flex flex-nowrap align-items-center">
+                <span class="fw-bold text-truncate">Northeastern U.</span>
+                <i class="fas fa-check-circle wd-twitter-primary ml-2"></i>
+              </div>
+              <div class="text-muted">@Northeastern</div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <button type="button" class="btn btn-dark rounded-pill">Follow</button>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center">
+              <img src="../images/mw-icon.jpeg" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-7 d-flex flex-column justify-content-between">
+              <div class="d-flex flex-nowrap align-items-center">
+                <span class="fw-bold text-truncate">Matt Wallace</span>
+                <i class="fas fa-check-circle wd-twitter-primary ml-2"></i>
+              </div>
+              <div class="text-muted">@MattWallace888</div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <button type="button" class="btn btn-dark rounded-pill">Follow</button>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-2 d-flex align-items-center">
+              <img src="../images/pb-icon.png" class="img-fluid rounded-3">
+            </div>
+            <div class="col-7 d-flex flex-column justify-content-between">
+              <div class="d-flex flex-nowrap align-items-center">
+                <span class="fw-bold text-truncate">PointsBet Sportsbook</span>
+                <i class="fas fa-check-circle text-warning ml-2"></i>
+              </div>
+              <div class="text-muted">@PointsBetUSA</div>
+              <div class="text-muted">
+                <small>
+                  <i class="fas fa-angle-up"></i>
+                  <span>Promoted</span>
+                </small>
+              </div>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+              <button type="button" class="btn btn-dark rounded-pill">Follow</button>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item wd-twitter-primary">
+          Show more
+        </li>
+      </ul>
+      <div class="text-muted p-3">
+        <small>
+          <div>Terms of Service  Privacy Policy  Cookie Policy Accessibility  Ads info  More &middot;&middot;&middot;</div>
+          <div>© 2023 Twitter, Inc.</div>
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
