@@ -1,5 +1,5 @@
 import NavigationSidebar from "../explore/NavigationSidebar/index.js";
-import PostSummaryList from "../explore/PostSummaryList";
+import PostSummaryList from "../explore/PostSummaryList/index.js";
 import PostList from "./PostList/index.js";
 
 function exploreComponent() {
