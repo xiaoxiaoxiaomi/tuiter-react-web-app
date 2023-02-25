@@ -26,12 +26,11 @@ const PostItem = (
             <div className="row">
               <div className="col-11">
                 <span className="fw-bold">{post.author}</span>
-                <FontAwesomeIcon icon={faCheckCircle}/>
+                <FontAwesomeIcon icon={faCheckCircle} className="ms-1 me-1"/>
                 <span
                     className="text-dark">{post.handle} &middot; {post.time}</span>
               </div>
               <div className="col-1">
-
                 <FontAwesomeIcon icon={faEllipsisH}/>
               </div>
             </div>
@@ -53,19 +52,19 @@ const PostItem = (
             </div>
             <div className="row mt-2 text-dark">
               <div className="col-3">
-                <FontAwesomeIcon icon={faComment}/>
+                <FontAwesomeIcon icon={faComment} className="me-2"/>
                 <span>{post.reply}</span>
               </div>
               <div className="col-3">
-                <FontAwesomeIcon icon={faRetweet}/>
+                <FontAwesomeIcon icon={faRetweet} className="me-2"/>
                 <span>{post.retweet}</span>
               </div>
               <div className="col-3">
-                <FontAwesomeIcon icon={faHeart}/>
+                <FontAwesomeIcon icon={faHeart} className="me-2"/>
                 <span>{post.like}</span>
               </div>
               <div className="col-3">
-                <FontAwesomeIcon icon={faArrowUp}/>
+                <FontAwesomeIcon icon={faArrowUp} className="me-2"/>
               </div>
             </div>
           </div>
