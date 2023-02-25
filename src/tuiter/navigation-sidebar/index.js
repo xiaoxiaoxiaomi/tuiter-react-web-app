@@ -20,7 +20,7 @@ const NavigationSidebar = () => {
   const active = paths[2];
   return (
       <div className="list-group">
-        <a className="list-group-item">Tuiter</a>
+        <a href="#" className="list-group-item">Tuiter</a>
         <Link to="/tuiter/home"
               className={`list-group-item d-flex align-items-center 
               ${active === 'home' ? 'active' : ''}`}>
@@ -37,32 +37,32 @@ const NavigationSidebar = () => {
           <FontAwesomeIcon icon={faFileAlt}/>
           <span className="d-none d-xl-block ms-2">Labs</span>
         </Link>
-        <a className={`list-group-item d-flex align-items-center
+        <a href="#" className={`list-group-item d-flex align-items-center
            ${active === 'notifications' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faBell}/>
           <span className="d-none d-xl-block ms-2">Notifications</span>
         </a>
-        <a className={`list-group-item d-flex align-items-center
+        <a href="#" className={`list-group-item d-flex align-items-center
            ${active === 'messages' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faEnvelope}/>
           <span className="d-none d-xl-block ms-2">Messages</span>
         </a>
-        <a className={`list-group-item d-flex align-items-center
+        <a href="#" className={`list-group-item d-flex align-items-center
            ${active === 'bookmarks' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faBookmark}/>
           <span className="d-none d-xl-block ms-2">Bookmarks</span>
         </a>
-        <a className={`list-group-item d-flex align-items-center
+        <a href="#" className={`list-group-item d-flex align-items-center
            ${active === 'lists' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faList}/>
           <span className="d-none d-xl-block ms-2">Lists</span>
         </a>
-        <a className={`list-group-item d-flex align-items-center
+        <a href="#" className={`list-group-item d-flex align-items-center
            ${active === 'profile' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faUser}/>
           <span className="d-none d-xl-block ms-2">Profile</span>
         </a>
-        <a className={`list-group-item d-flex align-items-center
+        <a href="#" className={`list-group-item d-flex align-items-center
            ${active === 'more' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faEllipsisH}/>
           <span className="d-none d-xl-block ms-2">More</span>
