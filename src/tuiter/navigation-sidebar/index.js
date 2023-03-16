@@ -23,7 +23,7 @@ const NavigationSidebar = () => {
         <a href="#top" className="list-group-item">Tuiter</a>
         <Link to="/tuiter/home"
               className={`list-group-item d-flex align-items-center 
-              ${active === 'home' ? 'active' : ''}`}>
+              ${active === '' || active === 'home' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faHome}/>
           <span className="d-none d-xl-block ms-2">Home</span>
         </Link>
