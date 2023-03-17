@@ -57,11 +57,12 @@ const NavigationSidebar = () => {
           <FontAwesomeIcon icon={faList}/>
           <span className="d-none d-xl-block ms-2">Lists</span>
         </a>
-        <a href="#top" className={`list-group-item d-flex align-items-center
-           ${active === 'profile' ? 'active' : ''}`}>
+        <Link to="/tuiter/profile"
+              className={`list-group-item d-flex align-items-center 
+              ${active === 'profile' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faUser}/>
           <span className="d-none d-xl-block ms-2">Profile</span>
-        </a>
+        </Link>
         <a href="#top" className={`list-group-item d-flex align-items-center
            ${active === 'more' ? 'active' : ''}`}>
           <FontAwesomeIcon icon={faEllipsisH}/>
