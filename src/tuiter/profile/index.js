@@ -20,7 +20,7 @@ const ProfileComponent = () => {
             <FontAwesomeIcon icon={faArrowLeft}/>
           </div>
           <div className="col-10 p-0 fs-6">
-            <div className="fw-bold">Jose Annunziato</div>
+            <div className="fw-bold">{profile.firstName} {profile.lastName}</div>
             <div className="text-secondary">6,114 Tweets</div>
           </div>
         </div>
