@@ -8,7 +8,6 @@ const WhatsHappening = () => {
   const tuitClickHandler = () => {
     const newTuit = {
       tuit: whatsHappening,
-      _id: new Date().getTime(),
       topic: "Space",
       username: "NASA",
       handle: "@NASA",
