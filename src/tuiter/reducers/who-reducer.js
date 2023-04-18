@@ -1,9 +1,9 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import whoArray from "../data/who.json";
 
 const whoSlice = createSlice({
   name: "who",
-  initialState: whoArray
+  initialState: whoArray,
 });
 
 export default whoSlice.reducer;
